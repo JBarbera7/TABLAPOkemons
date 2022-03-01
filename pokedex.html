@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+
+<head>
+    <header>
+        <style>
+       
+            
+            nav a{
+                text-decoration:none;
+                color:inherit;
+                font-size:14px;
+                } 
+                nav li{
+                display:inline-block;
+                width:10%;
+                padding:5px 10px;
+                background-color:#000;
+                border:1px solid #000;
+                text-align:center;
+                color:#fff;
+                }
+                nav li:hover{
+                background-color:#fff;
+                color:#000;
+                }
+       </style> 
+    <div class="menu">
+        <nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pokedex 1</a></li>
+        <li><a href="#">Pokedex 2</a></li>
+        <li><a href="#">Pokedex 3</a></li>
+        
+    </ul>
+        </nav>
+    </div>
+</header>
+    
+
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .columna {
+        float: left;
+        width: 33%;
+        padding-right: 5px;
+    }
+
+    .fila::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    img {
+       
+        width: 30%;
+        background-color:plum;
+        margin-top: 50px;
+        border-radius: 30px;
+        
+       
+    }
+    
+    .contenedor_imagen :hover { background-color:black;border-radius: 30px;box-shadow: 2px 2px rgb(0, 217, 255);}
+
+
+</style>
+
+
+<body>
+    
+    <div class="fila">
+        <div class="columna">
+            <div class="contenedor_imagen">
+            
+            <img src="img/abra.png">
+        
+    </div>
+    </div>
+        <div class="columna">
+            <div class="contenedor_imagen">
+            <img src="img/aerodactyl.png">
+        </div>
+    </div>
+        <div class="columna">
+            <div class="contenedor_imagen">
+            <img src="img/articuno.png">
+        </div>
+    </div>
+</div>
+    <div class="fila">
+        <div class="columna">
+            <div class="contenedor_imagen">
+            <img src="img/bellsprout.png">
+        </div>
+    </div>
+        <div class="columna">
+            <div class="contenedor_imagen">
+            <img src="img/butterfree.png">
+        </div>
+    </div>
+        <div class="columna">
+            <div class="contenedor_imagen">
+            <img src="img/caterpie.png">
+        </div>
+    </div>
+</div>  
+</body>
+
+</html>
